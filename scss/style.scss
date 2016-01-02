@@ -6,6 +6,23 @@ ul {
     }
 }
 
+.contact {
+    margin:0;
+    position:absolute;
+    right:20px;
+    bottom:18px;
+    font-size:14px;
+
+    hr {
+        border-width: 1px 0 0 0;
+    }
+
+    svg {
+        height:15px;
+    }
+
+}
+
 header {
     position:relative;
     height:175px;
@@ -55,25 +72,19 @@ header {
             left:107px;
         }
     }
-
-    #contact {
-        margin:0;
-        position:absolute;
-        right:20px;
-        bottom:18px;
-
-        svg {
-            height:15px;
-        }
-
-    }
 }
 
 body {
     background-color:#F9F9F9;
 }
 
+section {
+    width:50%;
+    margin: 25px 25%;
+}
+
 footer {
+
     font-family:$basefont;
     font-size:10px;
     color:#ccc;

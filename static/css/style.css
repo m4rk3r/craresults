@@ -11,6 +11,17 @@ html, body {
 ul li {
   list-style-type: none; }
 
+.contact {
+  margin: 0;
+  position: absolute;
+  right: 20px;
+  bottom: 18px;
+  font-size: 14px; }
+  .contact hr {
+    border-width: 1px 0 0 0; }
+  .contact svg {
+    height: 15px; }
+
 header {
   position: relative;
   height: 175px;
@@ -43,16 +54,13 @@ header {
     header #title li:nth-child(3) {
       bottom: 30px;
       left: 107px; }
-  header #contact {
-    margin: 0;
-    position: absolute;
-    right: 20px;
-    bottom: 18px; }
-    header #contact svg {
-      height: 15px; }
 
 body {
   background-color: #F9F9F9; }
+
+section {
+  width: 50%;
+  margin: 25px 25%; }
 
 footer {
   font-family: "Source Sans Pro";
