@@ -1,0 +1,27 @@
+{
+  "name": "craresults",
+  "version": "0.1.0",
+  "description": "Microsite",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1",
+    "shrinkwrap": "^0.4.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m4rk3r/craresults.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m4rk3r/craresults/issues"
+  },
+  "homepage": "https://github.com/m4rk3r/craresults#readme"
+}
