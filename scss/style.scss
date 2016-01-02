@@ -6,23 +6,6 @@ ul {
     }
 }
 
-.contact {
-    margin:0;
-    position:absolute;
-    right:20px;
-    bottom:18px;
-    font-size:14px;
-
-    hr {
-        border-width: 1px 0 0 0;
-    }
-
-    svg {
-        height:15px;
-    }
-
-}
-
 header {
     position:relative;
     height:175px;
@@ -72,6 +55,23 @@ header {
             left:107px;
         }
     }
+
+    .contact {
+        margin:0;
+        position:absolute;
+        right:20px;
+        bottom:18px;
+        font-size:14px;
+
+        hr {
+            border-width: 1px 0 0 0;
+        }
+
+        svg {
+            height:15px;
+        }
+
+    }
 }
 
 body {
@@ -81,10 +81,38 @@ body {
 section {
     width:50%;
     margin: 25px 25%;
+    font-family:$basefont;
+
+    .portrait {
+        float:left;
+        width:100px;
+        padding: 5px 10px 10px 0;
+    }
+
+    .contact {
+        margin:0;
+        padding:15px 0 0 0;
+        text-align:center;
+        margin:0;
+        font-size:14px;
+        border: solid 3px #333;
+        border-width:2px 0 0 0;
+
+        hr {
+            border-width: 1px 0 0 0;
+        }
+
+        svg {
+            height:15px;
+        }
+
+    }
 }
 
 footer {
-
+    position:absolute;
+    bottom:10px;
+    width:100%;
     font-family:$basefont;
     font-size:10px;
     color:#ccc;

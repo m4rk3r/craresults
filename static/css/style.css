@@ -11,17 +11,6 @@ html, body {
 ul li {
   list-style-type: none; }
 
-.contact {
-  margin: 0;
-  position: absolute;
-  right: 20px;
-  bottom: 18px;
-  font-size: 14px; }
-  .contact hr {
-    border-width: 1px 0 0 0; }
-  .contact svg {
-    height: 15px; }
-
 header {
   position: relative;
   height: 175px;
@@ -54,15 +43,45 @@ header {
     header #title li:nth-child(3) {
       bottom: 30px;
       left: 107px; }
+  header .contact {
+    margin: 0;
+    position: absolute;
+    right: 20px;
+    bottom: 18px;
+    font-size: 14px; }
+    header .contact hr {
+      border-width: 1px 0 0 0; }
+    header .contact svg {
+      height: 15px; }
 
 body {
   background-color: #F9F9F9; }
 
 section {
   width: 50%;
-  margin: 25px 25%; }
+  margin: 25px 25%;
+  font-family: "Source Sans Pro"; }
+  section .portrait {
+    float: left;
+    width: 100px;
+    padding: 5px 10px 10px 0; }
+  section .contact {
+    margin: 0;
+    padding: 15px 0 0 0;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    border: solid 3px #333;
+    border-width: 2px 0 0 0; }
+    section .contact hr {
+      border-width: 1px 0 0 0; }
+    section .contact svg {
+      height: 15px; }
 
 footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
   font-family: "Source Sans Pro";
   font-size: 10px;
   color: #ccc;
