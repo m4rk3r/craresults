@@ -91,3 +91,23 @@ footer {
   text-align: center; }
   footer a:link {
     color: #BCB8B8; }
+
+@media screen and (max-width: 480px) {
+  header {
+    position: relative;
+    display: block;
+    height: auto;
+    width: 100%; }
+    header #logo {
+      width: 125px; }
+    header .contact {
+      float: right;
+      margin-top: 23px; }
+  #container-me {
+    margin: 0; }
+  section {
+    width: 90%;
+    margin: 25px 5%; }
+  #services {
+    font-size: 16px;
+    line-height: 20px; } }
