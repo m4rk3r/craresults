@@ -28,16 +28,14 @@ header {
     //background-color:#F5F4FF;
 
     #logo {
-        padding: 25px 0 0 10px;
-        height: 215px;
-        top: 25px;
+        padding: 25px 0 0 25px;
+        width: 215px;
     }
 
 
     .contact {
         margin: 30px 0 0 0px;
-        padding: 0 0 25px 0;
-        text-align: center;
+        padding: 0 0 10px 25px;
         font-size:14px;
 
         .email {
@@ -74,8 +72,6 @@ section {
     margin: 25px 25%;
     font-family:$basefont;
     text-align:justify;
-
-
 } 
 
 #services {
