@@ -60,12 +60,13 @@ body {
 section {
   width: 50%;
   margin: 25px 25%;
-  font-family: "Source Sans Pro";
+  font-family: "Franklin Gothic medium";
   text-align: justify; }
 
 #services {
   padding-top: 50px;
-  font-size: 20px; }
+  font-size: 20px;
+  line-height: 30px; }
   #services b {
     color: #2E3092; }
 
@@ -74,7 +75,8 @@ section {
   padding-top: 50px;
   border: solid 1px grey;
   border-width: 1px 0 0 0;
-  color: #474747; }
+  color: #474747;
+  line-height: 20px; }
   #about p:first-of-type {
     margin-top: 0; }
   #about .portrait {
@@ -83,7 +85,7 @@ section {
     padding: 5px 10px 10px 0; }
 
 footer {
-  font-family: "Source Sans Pro";
+  font-family: "Franklin Gothic medium";
   font-size: 10px;
   color: #ccc;
   text-align: center; }
