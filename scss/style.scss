@@ -8,59 +8,22 @@ ul {
 
 header {
     position:relative;
-    height:175px;
+    height:250px;
     background-color:#F5F4FF;
 
-    .triangle {
-        position:absolute;
-        width: 0;
-        height: 0;
-        border-bottom: 100px solid #1115BC;
-        border-right: 100px solid transparent;
+    #logo {
 
-        left:20px;
-        bottom:20px;
-    }
-
-    #title {
-        margin:0;
-        padding:0;
-        font-family:$basefont;
-        font-size:20px;
-
-        li {
-            position:absolute;
-
-            &:first-letter {
-                font-weight:bold;
-            }
-
-            .sub {
-                font-size:12px;
-            }
-        }
-
-        li:nth-child(1) {
-            bottom:90px;
-            left:45px;
-        }
-
-        li:nth-child(2) {
-            bottom:60px;
-            left:75px;
-        }
-
-        li:nth-child(3) {
-            bottom:30px;
-            left:107px;
-        }
+        height: 215px;
+        position: absolute;
+        left: 35px;
+        top: 15px;
     }
 
     .contact {
         margin:0;
         position:absolute;
         right:20px;
-        bottom:18px;
+        top:15px;
         font-size:14px;
 
         hr {

@@ -13,41 +13,18 @@ ul li {
 
 header {
   position: relative;
-  height: 175px;
+  height: 250px;
   background-color: #F5F4FF; }
-  header .triangle {
+  header #logo {
+    height: 215px;
     position: absolute;
-    width: 0;
-    height: 0;
-    border-bottom: 100px solid #1115BC;
-    border-right: 100px solid transparent;
-    left: 20px;
-    bottom: 20px; }
-  header #title {
-    margin: 0;
-    padding: 0;
-    font-family: "Source Sans Pro";
-    font-size: 20px; }
-    header #title li {
-      position: absolute; }
-      header #title li:first-letter {
-        font-weight: bold; }
-      header #title li .sub {
-        font-size: 12px; }
-    header #title li:nth-child(1) {
-      bottom: 90px;
-      left: 45px; }
-    header #title li:nth-child(2) {
-      bottom: 60px;
-      left: 75px; }
-    header #title li:nth-child(3) {
-      bottom: 30px;
-      left: 107px; }
+    left: 35px;
+    top: 15px; }
   header .contact {
     margin: 0;
     position: absolute;
     right: 20px;
-    bottom: 18px;
+    top: 15px;
     font-size: 14px; }
     header .contact hr {
       border-width: 1px 0 0 0; }
