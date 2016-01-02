@@ -104,14 +104,21 @@ section {
 }
 
 footer {
+    transform-origin: 100% 0;
+    @include transform(rotateZ(-90deg));
+
+    bottom:400px;
+    right:20px;
+    position:fixed;
+
+    text-align:center;
     font-family:$basefont;
     font-size:10px;
-    color:#ccc;
+    color:#333;
 
     a:link {
-        color:#BCB8B8;
+        color:#9D9B9B;
     }
-    text-align:center;
 }
 
 @media screen and (max-width: 480px) {

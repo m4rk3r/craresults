@@ -85,12 +85,20 @@ section {
     padding: 5px 10px 10px 0; }
 
 footer {
+  transform-origin: 100% 0;
+  -webkit-transform: rotateZ(-90deg);
+  -moz-transform: rotateZ(-90deg);
+  -ms-transform: rotateZ(-90deg);
+  transform: rotateZ(-90deg);
+  bottom: 400px;
+  right: 20px;
+  position: fixed;
+  text-align: center;
   font-family: "Franklin Gothic medium";
   font-size: 10px;
-  color: #ccc;
-  text-align: center; }
+  color: #333; }
   footer a:link {
-    color: #BCB8B8; }
+    color: #9D9B9B; }
 
 @media screen and (max-width: 480px) {
   header {
