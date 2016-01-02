@@ -11,6 +11,9 @@ html, body {
 ul li {
   list-style-type: none; }
 
+.underline {
+  text-decoration: underline; }
+
 header {
   display: -webkit-box;
   display: -moz-box;
@@ -26,8 +29,7 @@ header {
   top: 0px;
   position: fixed;
   height: 100%;
-  width: 275px;
-  background-color: #F5F4FF; }
+  width: 275px; }
   header #logo {
     padding: 25px 0 0 10px;
     height: 215px;
@@ -43,7 +45,7 @@ header {
       height: 15px; }
 
 body {
-  background-color: #F9F9F9; }
+  background-color: #F5F4FF; }
 
 section {
   width: 50%;

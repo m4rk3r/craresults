@@ -6,6 +6,10 @@ ul {
     }
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 header {
     @include flexbox();
     @include direction(column);
@@ -15,7 +19,7 @@ header {
     position:fixed;
     height:100%;
     width: 275px;
-    background-color:#F5F4FF;
+    //background-color:#F5F4FF;
 
     #logo {
         padding: 25px 0 0 10px;
@@ -41,7 +45,7 @@ header {
 }
 
 body {
-    background-color:#F9F9F9;
+    background-color:#F5F4FF;
 }
 
 section {
