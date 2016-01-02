@@ -33,6 +33,14 @@ header {
         text-align: center;
         font-size:14px;
 
+        .email {
+            margin-bottom:5px;
+        }
+
+        .number {
+            letter-spacing:2px;
+        }
+
         hr {
             border-width: 1px 0 0 0;
         }
@@ -50,7 +58,7 @@ body {
 
 section {
     width:50%;
-    margin: 25px 25%;
+    margin: 25px 300px;
     font-family:$basefont;
 
     .portrait {
@@ -61,9 +69,6 @@ section {
 }
 
 footer {
-    position:absolute;
-    bottom:10px;
-    width:100%;
     font-family:$basefont;
     font-size:10px;
     color:#ccc;
