@@ -75,20 +75,34 @@ section {
     font-family:$basefont;
     text-align:justify;
 
-    .portrait {
-        float:left;
-        width:100px;
-        padding: 5px 10px 10px 0;
-    }
+
 } 
 
 #services {
-    width: 60%;
-    margin: 25px 20%;
+    padding-top: 50px;
+    font-size: 20px;
+
+    b {
+        color: $crablue;
+    }
 }
 
 #about {
     margin-top:50px;
+    padding-top: 50px;
+    border: solid 1px grey;
+    border-width: 1px 0 0 0;
+    color: #474747;
+
+    p:first-of-type{
+        margin-top:0;
+    }
+
+    .portrait {
+        float:left;
+        width:135px;
+        padding: 5px 10px 10px 0;
+    }
 }
 
 footer {
